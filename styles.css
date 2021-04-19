@@ -3,21 +3,21 @@ body{
     background-color: #f5f4f4;
 }
 
+.my-container{
+    max-width: 100%;
+    margin: auto;
+}
+
 .navbar{
     position: relative;
     width: 100%;
 }
 
 .main-img{
-    width: 90%;
+    width: 80%;
     max-width: 50rem;
     min-width: 25rem;
     object-fit: contain;
-}
-
-.my-container{
-    max-width: 100%;
-    margin: auto;
 }
 
 .section1-container{
@@ -42,6 +42,10 @@ body{
     text-align: start;
     padding-left: 3%;
     padding-top: 3%;
+}
+
+.img-container{
+    text-align: right;
 }
 
 .section1-content-right{
