@@ -73,7 +73,6 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
     justify-content: center;
-    text-align: center;
     margin-top: 1rem;
 }
 
@@ -240,7 +239,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin: 2rem 3rem;
-    height: 35rem;
+    min-height: 35rem;
 }
 
 .my-grid-card{
@@ -258,6 +257,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 
 @media screen and (max-width:900px) {
     .section1-container{
@@ -320,7 +320,8 @@ body{
     .stat-container{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 1rem;
-        width: 100%;
+        width: 70%;
+        margin: 1rem auto;
     }
 
     .section1-container{
@@ -335,7 +336,7 @@ body{
 
     .my-grid-card{
         width: 75%;
-        margin: 1rem 2rem;
+        margin: 1rem auto;
         height: 25rem;
     }
 }
